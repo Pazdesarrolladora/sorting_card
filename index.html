@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Bubble Sorting Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Selection Sorting </h1>
+    <div>
+        <label for="numCards"></label>
+        <input type="number" id="numCards">
+        <button onclick="drawCards()">Draw</button>
+        <button onclick="sortCards()">Sort </button>
+
+      
+        <div id="cardContainer">
+            <div class="card">
+                <div class="suit-top"></div>
+                <div class="rank"></div>
+                <div class="suit-bottom"></div>
+              </div>              
+        </div>
+      
+        <h1>Select Sort Long</h1>
+        <ol id="changeLog">
+        </ol>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>

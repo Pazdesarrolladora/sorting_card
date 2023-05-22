@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/06/7b/49/067b492330030e96e6d4d8d39f078359.jpg");
+    background-size: cover;
+  }
+  
+  .card {
+    width: 55px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    background-size: 100%;
+    background-image: url("https://i.pinimg.com/originals/66/06/00/6606006c1e720d5e1f763b983e24cb4d.png");
+  }
+  
+  .column {
+    margin-top: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .suit-top {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+  }
+  
+  .rank {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  
+  .suit-bottom {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    transform: rotate(180deg);
+  }
+    
