@@ -95,18 +95,10 @@ function showChangeLog(changes) {
 // Función para ordenar las cartas y mostrar el registro de cambios
 function sortCards() {
   var cardContainer = document.getElementById("cardContainer");
-  //   var cards = Array.from(cardContainer.getElementsByClassName("card")).map(
-  //     function (card) {
-  //       return card;
-  //     }
-  //   );
+
 
   selectionSort(cards);
-  //   showChangeLog(changes);
-  //   console.log("***********");
-  //   console.log(changes);
-  //   console.log("***********");
-  //   drawCardes(changes);
+
 }
 
 function drawCards() {
@@ -127,9 +119,7 @@ function drawCards() {
 }
 
 function drawCardes(changes) {
-  // console.log("******");
-  // console.log(changes);
-  // console.log("******");
+
 
   if (changes && changes.length > 0) {
     const row = document.createElement("div");
@@ -145,28 +135,8 @@ function drawCardes(changes) {
 }
 
 function createCardHTMLes(card) {
-  //   if (!card || typeof card !== "string") {
-  //     // Manejar el caso en el que la tarjeta no esté definida o no sea una cadena
-  //     // console.error("La tarjeta es inválida:", card);
-  //     return null; // O puedes devolver un elemento de tarjeta vacío en lugar de null
-  //   }
 
-  //   const suitRegex = /[♠♣♥♦]/;
-  //   const rankRegex = /[1-9|10|AJQK]/;
-
-  //   const suitMatch = card.match(suitRegex);
-  //   const rankMatch = card.match(rankRegex);
-
-  //   if (!suitMatch || !rankMatch) {
-  //     // Manejar el caso en el que la tarjeta no tenga el formato esperado
-  //     console.error("La tarjeta tiene un formato inválido:", card);
-  //     return null; // O puedes devolver un elemento de tarjeta vacío en lugar de null
-  //   }
-
-  //   const suit = suitMatch[0];
-  //   const rank = rankMatch[0];
-
-  const cardElement = document.createElement("div");
+    const cardElement = document.createElement("div");
   cardElement.className = "card";
 
   const suitTop = document.createElement("div");
