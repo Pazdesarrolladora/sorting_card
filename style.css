@@ -1,6 +1,6 @@
 body {
-    background-image: url("https://i.pinimg.com/564x/06/7b/49/067b492330030e96e6d4d8d39f078359.jpg");
-    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/a9/6d/71/a96d717fada4bc79630b883a0a56e087.gif");
+    background-size: 100%;
   }
   
   .card {
@@ -12,9 +12,7 @@ body {
     display: inline-block;
     position: relative;
     border-radius: 3px;
-    background-size: 100%;
-    background-image: url("https://i.pinimg.com/originals/66/06/00/6606006c1e720d5e1f763b983e24cb4d.png");
-  }
+    background-color: beige; }
   
   .column {
     margin-top: 10px;
@@ -29,7 +27,7 @@ body {
   
   .suit-top {
     position: absolute;
-    top: 5px;
+    top: 0px;
     left: 5px;
     font-size: 20px;
   }
@@ -42,7 +40,7 @@ body {
   
   .suit-bottom {
     position: absolute;
-    bottom: 5px;
+    bottom: 0px;
     right: 5px;
     font-size: 20px;
     transform: rotate(180deg);
